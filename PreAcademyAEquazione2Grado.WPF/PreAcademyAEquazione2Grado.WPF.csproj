@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="einstein-foto.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PreAcademyAEquazione2Grado.Core\PreAcademyAEquazione2Grado.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="einstein-foto.jpg" />
+  </ItemGroup>
+
+</Project>
